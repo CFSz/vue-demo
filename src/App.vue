@@ -1,11 +1,11 @@
 <template>
-  <flatify_frame></flatify_frame>
+  <layout></layout>
 
 
 </template>
 
 <script>
-  import flatify_frame from './view/layout/flatify_frame.vue'
+  import layout from './view/layout/layout.vue'
 
   export default {
     data(){
@@ -14,7 +14,7 @@
       }
     }
     ,components: {
-      flatify_frame
+      layout
     }
   }
 </script>
