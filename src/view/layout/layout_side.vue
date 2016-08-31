@@ -4,7 +4,6 @@
       <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 100%;">
         <ul id="nav" style="overflow: hidden; width: auto; height: 100%;">
           <nav_li v-for="item in items" :item="item"></nav_li>
-          <li @click="lll">点击示例</li>
         </ul>
       </div>
     </div>
@@ -18,7 +17,7 @@
       return {
         items: [
           {
-            title:'管理操作台'
+            title:'管理控制台'
             ,link:{ path: '/old/dashboard', activeClass: 'active' }
             ,icon:'dashboard'
             ,bg:'danger'
@@ -203,7 +202,6 @@
 </script>
 
 <style lang="less">
-  //@import "style"
   .nav{
     overflow: hidden;
     width: auto;
